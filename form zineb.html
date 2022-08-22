@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ss2.css">
+    <script defer src="jszi.js"></script>
+    <script></script>
+    <title>sign up</title>
+    <style>
+       body{
+    background-color: pink;
+} 
+    </style>
+</head>
+<body>
+    <h3 id="msg"></h3>
+
+<form action="">
+<fieldset>
+    <legend>Inscription</legend>
+            <table>
+                <tr>
+                    <td><label>Nom</label><span id="ftnom">⁎</span></td>
+                    <td><input type="text" name="" id="nom" ></td>
+                </tr>
+
+                <tr>
+                    <td><label for="b">Prenom</label><span id="ftpre">⁎</span></td>
+                    <td><input type="text" name="" id="prenom" ></td>
+                </tr>
+                <tr>
+                    <td><label for="b">date de naissance</label><span id="erdn" >⁎</span></td>
+                    <td><input type="date" id="dn" required ></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Code posal</label><span id="ercp">⁎</span></td>
+                    <td><input type="text" name="" id="cp"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Pays</label><span id="erp">⁎</span></td>
+                    <td>
+                      <select id="pay">
+                        <option value="" disabled selected>chose</option>
+                        <option value="maroc">maroc</option>
+                        <option value="france">france</option>
+                      </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Gener</label><span id="vg">⁎</span></td>
+                    <td><input type="radio" name="g" id="m"><label >Masculin</label>
+                        <input type="radio" name="g" id="f" ><label>Féminin</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Prefernces de contact</label><span>⁎</span></td>
+                    <td><input type="checkbox" name="" id="contact">Fax<input type="checkbox" name="" id="">Email<input type="checkbox" name="" id="">Telephone</td>
+                </tr>
+
+                <tr>
+                    <td><label >Email</label><span id="erem">⁎</span></td>
+                    <td><input type="text" name="" id="email" ></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Telephon</label><span id="ertele">⁎</span></td>
+                    <td><input type="text" name="" id="tele" ></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Password</label><span id="erpw">⁎</span></td>
+                    <td><input type="password" name="" id="pw" ></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Verification password</label><span id="ervpw">⁎</span></td>
+                    <td><input type="password" name="" id="vpw"></td>
+                </tr>       
+                
+                
+                <tr>
+                    <td></td>
+                    <td><button type="button" onclick="Validator()">Envoyer</button><button type="reset">Efacer</button></td>
+                </tr>   
+
+                <h3 id="date"></h3>
+
+        </table>
+</fieldset>
+</form>
+</body>
+</html>
